@@ -1,0 +1,101 @@
+/* -- Login notice customization -- */
+
+.mat-mdc-snack-bar-container .mat-mdc-snackbar-surface {
+  max-width: 19rem!important;
+    padding: 1em 2em;
+    background-color: #ffffdc!important;
+}
+
+/* -- Hide Request section message -- */
+
+.item-level-request-msg-container {
+  display: none;
+}
+
+#mat-expansion-panel-header-9 {
+  margin-bottom: -0.75rem; 
+}
+
+/* Move External Search to bottom of facets */
+.pcsg-external-search {
+  order: 1;
+}
+
+
+.resource-type-bar[_ngcontent-ng-c3226722527] {
+  margin: -0.75rem 0 0rem 0;
+}
+
+.mdc-button[_ngcontent-ng-c3226722527] {
+  font-weight: 600!important;
+  font-size: 1.1rem!important;
+}
+
+
+/* Footer styles */
+
+h4.footer-header {
+font-size: 1.25rem;
+font-weight: 800;
+margin: 0 0 0.5rem 0;
+}
+
+.row {
+display: flex;
+flex-wrap: wrap;
+margin-right: -15px;
+}
+
+footer .row ul {
+width:85%;
+}
+
+.col-6 {
+flex: 0 0 auto;
+width: 25%;
+}
+
+.footer-container {
+min-width: 850px;
+}
+
+.footer {
+background-color: #941728;
+padding: 2rem 1rem;
+color: white;
+}
+
+.footerTitle {
+text-transform: uppercase;
+}
+
+.footer address a,
+.footer p a {
+color: white;
+padding: 0 0.2rem;
+&:hover {
+text-decoration: none;
+color: #941728 !important;
+background-color: white;
+}
+}
+
+.footer li {
+color: white;
+list-style: none !important;
+
+a {
+color: white;
+padding: 0 0.2rem;
+&:hover {
+text-decoration: none;
+color: #941728 !important;
+background-color: white;
+}
+}
+}
+
+li.title{
+line-height: 1.5em;
+margin: 1em 0;
+}
