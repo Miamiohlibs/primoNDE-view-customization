@@ -1,10 +1,7 @@
 (function () {
   ('use strict');
   ('use strict');
-  var app = angular.module('viewCustom', ['angularLoad', 'externalSearch']);
-  var LOCAL_VID = '01OHIOLINK_MU-MU_NDE';
 
-  /*----------below is the code for libchat-----------*/
   // Adds the chat button
   (function () {
     var lc = document.createElement('script');
@@ -16,5 +13,10 @@
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(lc, s);
   })();
-  /*---------------libchat code ends here---------------*/
+  // End the chat button
+  
 })();
+
+
+
+ 
