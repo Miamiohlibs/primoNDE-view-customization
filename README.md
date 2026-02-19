@@ -58,11 +58,11 @@ I wrote some instructions for another library and include them below.
 ### Uploading customization file
 
 - Compress the entire view folder
-    - If you're on Windows, use 7-Zip
-    - If you're on a Mac, you'll likely need to compress it with a command line prompt. Substitute your view code in for mine here...
-    - **zip -r 01OHIOLINK_MU-MU_NDE26.zip 01OHIOLINK_MU-MU_NDE26 -x "*.DS_Store"**
-    - This command is needed to delete the hidden .DS_Store files Mac automatically includes in all folders.
-    - If these files are not deleted before zip compression, Primo will be unable to process the customizataion package and the upload will fail.
+    1. If you're on Windows, use 7-Zip
+    2. If you're on a Mac, you'll likely need to compress it with a command line prompt. Substitute your view code in for mine here...
+    3. **zip -r 01OHIOLINK_MU-MU_NDE26.zip 01OHIOLINK_MU-MU_NDE26 -x "*.DS_Store"**
+    4. This command is needed to delete the hidden .DS_Store files Mac automatically includes in all folders.
+    5. If these files are not deleted before zip compression, Primo will be unable to process the customizataion package and the upload will fail.
 - Upload the resulting zip file and you'll ideally see a prompt that it was successfully uploaded.
 - Then hit the Save button at the top right to implement the new changes.
 
@@ -74,5 +74,5 @@ I wrote some instructions for another library and include them below.
     - Double check that the file name and file type are correct and that files are correctly formatted.
 - Still not working? 
     - Read the documentation for the umpteenth time and/or scream at the sky.
-    - Seriously, sometimes after a couple tries, I reach out to someone to see if they can see the issue I'm missing. 
+    - Seriously, after 2-3 tries, I'll often reach out to someone to see if they can see the issue I'm missing. 
     - In one case, I saw an SVG that missized to 140px across instead of 1400px across so it did not appear. A new attempt at creating the SVG at 1400px succeeded and the background image appeared.
