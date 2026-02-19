@@ -15,16 +15,20 @@ Initial Notes:
 
 ### Favicon
 
-The favicon is located in [yourview] > assets > icons > favicon.ico
+The favicon is located in the icons folder 
+    - [yourview] > assets > icons > favicon.ico
 
 ### Library Logos
 
 The library logos are in two places — 
-1. Our Miami library logo is encoded on the header.html file — **[yourview] > assets > header-footer > header.html**. 
-    - The header image in that file is locate4d in [yourview] > assets > images > library-header-logo.png 
-    - As this is our own coding, we have control over the file name and location.
-The OneSearch logo we made (to replace the Clarivate logo) is also in [yourview] > assets > images > library-logo.png 
-This image name is hardcoded into the template so we had to use that location and name.
+1. Our Miami library logo is encoded on the header.html file 
+    — **[yourview] > assets > header-footer > header.html**. 
+    - In turn, the header image from this file are in the images folder.
+    - **[yourview] > assets > images > library-header-logo.png**
+    - We can control the file name and image location as it's our own coding.
+2. The OneSearch logo made to replace the Clarivate logo is also in images folder.
+    - **[yourview] > assets > images > library-logo.png**
+    - This image name is hardcoded into the template so we need to use this location and file name.
 
 ### Background image
 
