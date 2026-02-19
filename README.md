@@ -32,11 +32,12 @@ The library logos are in two places —
 
 ### Background image
 
-The background image is [yourview] > assets > homepage > homepage_background.svg
+The background image is located in the homepage folder.
+    - **[yourview] > assets > homepage > homepage_background.svg**
 
-I find converting pixel-based images to paths-based SVG text files to be a bit wonky. There are online image-to-SVG converters. I personally used Adobe Illustrator.
+The file name and format type are hardcoded in the Primo template so matching is necessary. I find converting pixel-based images to paths-based SVG text files a bit wonky. There are online image-to-SVG converters. I personally used Adobe Illustrator.
 
-I wrote some instructions about this for Hydy at Columbus State last week so I'll copy them in the PS below. (I'll see if I can add it to the Github repo ReadMe page as well.)
+I wrote some instructions for another library and include them below.
 
 #### Detailed instructions for background image
 
