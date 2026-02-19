@@ -6,6 +6,16 @@
     background-color: #ffffdc!important;
 }
 
+/* Improving focus indicators */
+
+#main-search-bar:focus-visible {
+  outline: 3px solid red; /* Customize color and thickness */
+  outline-offset: 0px;
+  padding: 0px 20px;
+  border-radius: 25px;
+}
+
+
 /* -- Hide Request section message -- */
 
 .item-level-request-msg-container {
