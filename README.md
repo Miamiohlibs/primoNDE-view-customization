@@ -39,7 +39,7 @@ The file name and format type are hardcoded in the Primo template so matching is
 
 I wrote some instructions for another library and include them below.
 
-## Detailed instructions for background image from scratch
+## Detailed instructions for a new background image from scratch
 
 - On the Manage Customization Package tab of **Discovery > View Configuration**, you can download a copy of your current Primo customization folder.
 - Inside this folder, the homepage image needs to be placed in the **assets > homepage** folder and must be named *homepage_background.svg* to work properly.
