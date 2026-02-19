@@ -21,8 +21,8 @@ The favicon is located in the icons folder
 ### Library Logos
 
 The library logos are in two places — 
-1. Our Miami library logo is encoded on the header.html file 
-    — **[yourview] > assets > header-footer > header.html**. 
+1. Our Miami library logo is encoded in the header.html file in the header-footer folder.
+    - **[yourview] > assets > header-footer > header.html**.
     - In turn, the header image from this file are in the images folder.
     - **[yourview] > assets > images > library-header-logo.png**
     - We can control the file name and image location as it's our own coding.
