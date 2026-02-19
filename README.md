@@ -39,35 +39,40 @@ The file name and format type are hardcoded in the Primo template so matching is
 
 I wrote some instructions for another library and include them below.
 
-#### Detailed instructions for background image
+## Detailed instructions for background image from scratch
 
-Here's the entire process as if starting from scratch...
+- On the Manage Customization Package tab of **Discovery > View Configuration**, you can download a copy of your current Primo customization folder.
+- Inside this folder, the homepage image needs to be placed in the **assets > homepage** folder and must be named *homepage_background.svg* to work properly.
 
-- On the Manage Customization Package tab of Discovery > View Configuration, you can download a template file of the Primo customization file.
-- Inside this folder, the homepage image needs to be placed in the assets > homepage folder and must be named homepage_background.svg to work.
-    - For the image itself, I started with a normal photograph of our library. In Photoshop, I...
-    - Reduced the image size to 1400px across
-    - Cropped the height to match the sample image ratio.
-    - Played with the Photoshop filters to give it a painterly look. 
-    - Saved that as a png file
-- Opened the image in Illustrator where I was able to export it as an SVG file. I checked the minimize checkbox when saving to reduce load time.
-- My first attempt took too long to load so that's when I reduced the image size to 1400px. I'm still not quite happy with the load time, but it's a lot better than what it was.
-- Placed the image in the homepage folder and renamed it homepage_background.svg to match the required file name.
+### Creating the background image
 
-#### Uploading customization file
+- To create the SVG, we started with a digital photograph of our library. In Photoshop, we then...
+    1. Reduced the image size to 1400px across
+    2. Cropped the height to match the sample image ratio.
+    3. Played with the Photoshop filters to give it a painterly look. 
+    4. Saved the resulting image as a .png file
+    5. Opened the image in Illustrator where I was able to export it as an SVG file. I checked the minimize checkbox when saving to reduce load time.
+    6. My first attempt took too long to load so that's when I reduced the image size to 1400px. I'm still not quite happy with the load time, but it's a lot better than what it was.
+    7. Placed the image in the homepage folder and renamed it homepage_background.svg to match the required file name.
+
+### Uploading customization file
 
 - Compress the entire view folder
-- If you're on Windows, use 7-Zip
-- If you're on a Mac, you'll likely need to compress it with a command line prompt. Substitute your view code in for mine here...
-- > zip -r 01OHIOLINK_MU-MU_NDE26.zip 01OHIOLINK_MU-MU_NDE26 -x "*.DS_Store"
-- This method is needed because the built-in Mac compression method leaves the hidden .DS_Store file in the zip and Primo can't process it.
-- Upload the resulting zip and hopefully you'll see a prompt that it was successfully uploaded.
+    - If you're on Windows, use 7-Zip
+    - If you're on a Mac, you'll likely need to compress it with a command line prompt. Substitute your view code in for mine here...
+    - **zip -r 01OHIOLINK_MU-MU_NDE26.zip 01OHIOLINK_MU-MU_NDE26 -x "*.DS_Store"**
+    - This command is needed to delete the hidden .DS_Store files Mac automatically includes in all folders.
+    - If these files are not deleted before zip compression, Primo will be unable to process the customizataion package and the upload will fail.
+- Upload the resulting zip file and you'll ideally see a prompt that it was successfully uploaded.
 - Then hit the Save button at the top right to implement the new changes.
 
 #### See the changes...
-- Force-reload (shift-command-R or shift-control-R) your Primo homepage for the new image to kick in.
+- Return to Primo and force-reload (shift-command-R or shift-control-R) your homepage to see if the new image kicks in.
 - If it's not working, try the following in order...
-- Try a second force reload.
-- Try uploading and saving the config folder a second time. (Occasionally I've not had an upload not take, but no clue why). 
-- Double check that the file name and file type are correct and that files are correctly formatted.
-- Still not working? Read the documentation for the umpteenth time and/or scream at the sky.
+    - Try a second force reload.
+    - Try uploading and saving the config folder a second time. (Occasionally I've not had an upload not take, but no clue why). 
+    - Double check that the file name and file type are correct and that files are correctly formatted.
+- Still not working? 
+    - Read the documentation for the umpteenth time and/or scream at the sky.
+    - Seriously, sometimes after a couple tries, I reach out to someone to see if they can see the issue I'm missing. 
+    - In one case, I saw an SVG that missized to 140px across instead of 1400px across so it did not appear. A new attempt at creating the SVG at 1400px succeeded and the background image appeared.
