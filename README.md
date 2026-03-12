@@ -11,5 +11,7 @@ Initial Notes:
 
 - [Adding LibChat to Primo](https://developers.exlibrisgroup.com/blog/embedding-springshare-libchat-widget-into-the-primo-nu/)
 
+- [NDE implementation cheatsheet](https://flvc.libguides.com/nde_mixpanel_implementation/NDEsteps)
+
 
 **[Visit the Wiki for additional details!](https://github.com/Miamiohlibs/primoNDE-view-customization/wiki)**
