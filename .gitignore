@@ -1,3 +1,11 @@
 # macOS Finder metadata
 .DS_Store
 **/.DS_Store
+
+# Archive bundles
+*.zip
+**/*.zip
+
+# Local working folder
+/01OHIOLINK_MU-MU_LinkResolver2/
+
