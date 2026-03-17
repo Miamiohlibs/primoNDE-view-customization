@@ -3,8 +3,8 @@
 **/.DS_Store
 
 # Archive bundles
-*.zip
-**/*.zip
+# *.zip
+# **/*.zip
 
 # Local working folder
 /01OHIOLINK_MU-MU_LinkResolver2/
