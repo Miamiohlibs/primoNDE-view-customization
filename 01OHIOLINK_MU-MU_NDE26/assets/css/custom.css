@@ -15,6 +15,12 @@
   border-radius: 25px;
 }
 
+/* brief record tweaks */
+
+.text-paragraph[_ngcontent-ng-c3551052722] {
+  padding: 6px 0;
+}
+
 /* LibChat tweaks */
 
 #lcs_slide_out-29005 {
