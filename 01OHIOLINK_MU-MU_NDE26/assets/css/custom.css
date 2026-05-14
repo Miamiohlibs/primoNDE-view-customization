@@ -17,9 +17,14 @@
 
 /* brief record tweaks */
 
-.text-paragraph[_ngcontent-ng-c3551052722] {
-  padding: 6px 0;
+div[_ngcontent-ng-c3551052722] {
+  padding-top: 8px;
 }
+
+ span.getit-holding-value.ng-star-inserted {
+  overflow-wrap: anywhere;
+}
+
 
 /* LibChat tweaks */
 
